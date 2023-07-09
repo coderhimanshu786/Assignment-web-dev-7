@@ -1,0 +1,17 @@
+/*
+Ans-2
+    “this” keyword refers to an object that is executing the current piece of code. It references the object that is executing the current function. If the function being referenced is a regular function, “this” references the global object.
+    Or
+    The this keyword represents a JavaScript object in the global scope or inside a function scope and its value depends on how you call the function, not, how you define it. Therefore, this value inside a function is not guaranteed to be the same as it depends on the function call signature.
+
+    for example-
+                            const person = {
+                                firstName: "John",
+                                lastName : "Doe",
+                                id       : 5566,
+                                fullName : function() {
+                                    return this.firstName + " " + this.lastName;
+                                }
+                                };
+
+                                */
